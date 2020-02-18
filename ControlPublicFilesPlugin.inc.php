@@ -134,7 +134,7 @@ class ControlPublicFilesPlugin extends GenericPlugin {
 	}
 
 	/**
-	 * Add the publication statement to the article details page.
+	 * Modify whether the user is allowed to access the public file upload API
 	 *
 	 * @param string $hookName API::uploadPublicFile::permissions
 	 * @param array $params [[

@@ -1,4 +1,17 @@
 <?php
+/**
+ * @file plugins/generic/controlPublicFiles/ControlPublicFilesSettingsForm.inc.php
+ *
+ * Copyright (c) 2017-2019 Simon Fraser University
+ * Copyright (c) 2017-2019 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @class ControlPublicFilesPlugin
+ * @ingroup plugins_generic_controlPublicFiles
+ *
+ * @brief Class for the settings form for the ControlPublicFilesPlugin
+ */
+
 import('lib.pkp.classes.form.Form');
 class ControlPublicFilesSettingsForm extends Form {
 
