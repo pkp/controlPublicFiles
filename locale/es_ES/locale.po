@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-02-18T12:00:38+00:00\n"
+"PO-Revision-Date: 2020-02-18T12:00:38+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Controlar archivos públicos"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr "Limite quién puede cargar archivos públicos y qué tipo de archivos pueden cargar."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Tamaño concedido al directorio"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr "Establezca para cada usuario un límite en el tamaño del archivo que carga en el directorio público, en bytes. El valor predeterminado es 25000 (25mb)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Tipos de archivos permitidos"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr "Limite qué tipo de archivos se pueden cargar. Separe cada archivo con una coma. El valor predeterminado es \"gif,jpg,png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Deshabilitar todas las cargas"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr "No permitir que ningún usuario cargue archivos a través del editor de texto."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Deshabilitar de acuerdo a los roles"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "No permitir que {$role} cargue archivos a través del editor de texto."
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr "<p>Los usuarios pueden cargar imágenes sea que se les presente en un editor de texto enriquecido que incluya controlar la carga de imágenes. Esta opción incluye secciones tales como Acerca de la publicación, así como la biografía personal en el área de perfil de cada usuario.</p><p>Las opciones de configuración a continuación le permite restringir quién puede cargar, qué tipo de archivos pueden cargar y qué tan grande puede crecer el directorio de archivos.</p>"
