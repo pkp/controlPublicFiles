@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-20 09:23+0000\n"
+"Last-Translator: Primož Svetek <primoz.svetek@gmail.com>\n"
+"Language-Team: Slovenian <http://translate.pkp.sfu.ca/projects/plugins/"
+"controlpublicfiles/sl/>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p>Uporabniki lahko nalagajo slike kjerkoli je na voljo urejevalnik "
+"besedila, ki ima omogočeno nalaganje slik. To vključuje recimo polje za vpis "
+"O reviji in tudi polje za vpis uporabnikove bibilografije v profilu "
+"uporabnika.</p><p>Spodnje nastavitve vam omogočajo omejiti kdo lahko nalaga "
+"datoteke, kakšnega tipa so lahko in kakšna je lahko njihova skupna velikost "
+"v mapi.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr ""
+"Ne dovoli, da uporabniki z vlogo {$role} nalagajo datoteke preko "
+"urejevalnika besedila."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Onemogoči glede na vlogo"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr "Ne omogoči uporabnikom nalaganje datoteko preko urejevalnika besedila."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Onemogoči vsako nalaganje"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"Omejite kakšne vrste datotek je dovoljeno nalagati. Vsako končnino ločite z "
+"vejico. Privzeto je \"gif,jpg,png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Dovoljeni tipi datotek"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"Določi dovoljeno skupno velikost datotek v javni mapi vsakega uporabnika v "
+"byte-ih. Privzeto je 25000 (25mb)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Dovoljena velikost mape"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr "Omejitev kdo lahko nalaga javne datoteke in kaksnega tipa so lahko."
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Nadzor nad javnimi datotekami"

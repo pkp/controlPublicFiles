@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-20 09:23+0000\n"
+"Last-Translator: Ramli Baharuddin <ramli.baharuddin@relawanjurnal.id>\n"
+"Language-Team: Indonesian <http://translate.pkp.sfu.ca/projects/plugins/"
+"controlpublicfiles/id/>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p>Pengguna bisa mengunggah gambar kapan pun melalui editor teks yang juga "
+"memiliki kontrol unggah gambar.  Ini mencakup kolom serupa dengan bagain "
+"Tentang Jurnal serta biografi pengguna di setiap area profil pengguna.</p><p>"
+"Pengaturan berikut memungkinkan Anda untuk membatasi siapa yang boleh "
+"mengunggah, jrnis file uang boleh diunggah, serta kapasitas direktori yang "
+"bisa dipakai.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "Jangan bolehkan {$role} mengunggah file melalui editor teks."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Nonaktifkan Berdasarkan Peran"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr "Jangan biarkan setiap pengguna mengunggah file melalui editor teks."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Nonaktifkan Semua Uanggahan"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"Batasi jenia file yang boleh diunggah. Pisahkan jenisnya dengan koma. Jenis "
+"file bawaan \"gif,jpg,png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Tipe File yang Diperbolehkan"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"Tentukan limit ukuran file untuk setiap direktori unggahan publik pemgguna "
+"dalan ukuran byte. Ukuran asalnya adalah 25000 (25mb)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Ukuran Direktori yang Diperbolehkan"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr ""
+"Batasi siapa saja yang boleh mengunggah file publik dan jenis file yang bisa "
+"diunggah."
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Kelola File Publik"

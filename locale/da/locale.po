@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-20 09:23+0000\n"
+"Last-Translator: Niels Erik Frederiksen <nef@kb.dk>\n"
+"Language-Team: Danish <http://translate.pkp.sfu.ca/projects/plugins/"
+"controlpublicfiles/da/>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p>Brugere kan uploade billeder, uanset hvor de præsenteres med en rtf-"
+"teksteditor, der inkluderer styringskontrollen til upload af billeder. Dette "
+"inkluderer steder som afsnittet ’Om tidsskriftet’ samt brugerbiografien i "
+"alle brugerers profilområde. </p><p>Indstillingerne nedenfor giver dig "
+"mulighed for at begrænse, hvem der kan uploade, hvilken type filer de kan "
+"uploade, og hvor stort deres bibliotek med filer kan være.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "Lad ikke {$role} uploade filer via tekst-editoren."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Deaktivér efter rolle"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr "Tillad ikke nogen brugere at uploade filer gennem tekst-editoren."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Deaktivér alle uploads"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"Begræns hvilken slags filer, der kan uploades. Adskil hver fil med et komma. "
+"Standard er \"gif, jpg, png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Tilladte filtyper"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"Sæt en grænse for den samlede filstørrelse for hver brugers offentlige "
+"upload-bibliotek i byte. Standard er 25000 (25mb)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Tilladt bibliotekstørrelse"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr ""
+"Begræns, hvem der kan uploade offentlige filer, og hvilken type filer de kan "
+"uploade."
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Kontrollér offentlige filer"
