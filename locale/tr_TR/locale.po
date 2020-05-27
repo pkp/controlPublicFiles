@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-20 20:38+0000\n"
+"Last-Translator: Hüseyin Körpeoğlu <yoruyenturk@hotmail.com>\n"
+"Language-Team: Turkish <http://translate.pkp.sfu.ca/projects/plugins/"
+"controlpublicfiles/tr_TR/>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p>Kullanıcılar, resim yükleme denetimini içeren zengin bir metin "
+"düzenleyici ile sunulan her yere resim yükleyebilir. Bu, Dergi Hakkında "
+"bölümü gibi yerleri ve her kullanıcının profil alanındaki kullanıcı "
+"biyografisini içerir.</p> <p>Aşağıdaki ayarlar, kimlerin ne tür dosyaları "
+"yükleyebileceğini ve ne kadar büyük dosya yükleyebileceğini kısıtlamanıza "
+"olanak tanır.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "{$Role}'lerin metin editörü üzerinden dosya yüklemesine izin vermeyin."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Role Göre Devre Dışı Bırak"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr ""
+"Hiçbir kullanıcının metin editörü üzerinden dosya yüklemesine izin verme."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Tüm Yüklemeleri Devre Dışı Bırak"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"Ne tür dosya türleri yüklenebileceğini sınırlayın. Her dosya türünü virgülle "
+"ayırın. Varsayılan \"gif, jpg, png\" dir."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "İzin Verilen Dosya Türleri"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"Her kullanıcının genel yükleme dizininin bayt cinsinden toplam dosya boyutu "
+"için bir sınır belirleyin. Varsayılan 25000'dir (25mb)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "İzin Verilen Dosya Boyutu"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr ""
+"Dosyaları türlerine göre kimlerin yükleyebileceğini ve ne tür dosyalar "
+"yükleyebilecekleğini sınırlayın."
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Dosya Kontrolü"

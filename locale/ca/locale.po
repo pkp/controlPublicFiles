@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-01 15:38+0000\n"
+"Last-Translator: Jordi LC <jordi.lacruz@uab.cat>\n"
+"Language-Team: Catalan <http://translate.pkp.sfu.ca/projects/plugins/"
+"controlpublicfiles/ca/>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p>Els usuaris/àries poden carregar imatges en qualsevol lloc on aparegui un "
+"editor de textos enriquit que inclogui el control de càrrega d'imatges. Això "
+"compren seccions com \"Quant a la revista\", així com la biografia de l'"
+"usuari/ària en cada àrea de perfil d'usuari/ària.</p><p>Les opcions de "
+"configuració que hi ha a continuació us permeten restringir qui pot fer "
+"càrregues, quin tipus d'arxius poden carregar i fins a quin punt poden "
+"créixer els seus directoris d'arxius.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "No permetre que {$role} carregui arxius mitjançant l'editor de textos."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Deshabilitar per rols"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr ""
+"No permetre a cap usuari/ària carregar arxius mitjançant l'editor de textos."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Deshabilitar totes les càrregues"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"Limiteu quins tipus d'arxius es poden carregar. Separeu cada arxiu amb una "
+"coma. El tipus predeterminats són \"gif,jpg,png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Tipus d'arxius permesos"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"Configureu un límit en bytes per a la mida total d'arxiu que cada usuari/"
+"ària pot carregar en el seu directori públic . El valor predeterminat és "
+"25000 (25mb)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Mida permesa del directori"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr ""
+"Limiteu qui pot carregar arxius públics i quin tipus d'arxius poden carregar."
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Controlar arxius públics"
