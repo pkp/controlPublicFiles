@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-06 02:30+0000\n"
+"Last-Translator: Diego José Macêdo <diegojmacedo@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <http://translate.pkp.sfu.ca/projects/"
+"plugins/controlpublicfiles/pt_BR/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p> Os usuários podem fazer upload de imagens onde quer que sejam "
+"apresentadas com um editor de texto rico, que inclui o controle de upload de "
+"imagens. Isso inclui locais como a seção Sobre da Revista, bem como a "
+"biografia do usuário na área de perfil de todos os usuários.</p><p> As "
+"configurações abaixo permitem restringir quem pode carregar, que tipo de "
+"arquivos eles podem carregar e qual o tamanho o diretório de arquivos podem "
+"aumentar. </p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "Não permita que {$role} faça upload de por meio do editor de texto."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Desativar por papel"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr ""
+"Não permita que nenhum usuário faça upload de arquivos através do editor de "
+"texto."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Desativar todos os uploads"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"Limite o tipo de arquivo que pode ser carregado. Separe cada arquivo com uma "
+"vírgula. O padrão é \"gif, jpg, png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Tipos de arquivos permitidos"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"Defina um limite para o tamanho total do arquivo do diretório de upload "
+"público de cada usuário em bytes. O padrão é 25000 (25mb)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Tamanho do diretório permitido"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr ""
+"Limitar quem pode fazer upload de arquivos públicos e que tipo de arquivos "
+"que eles podem fazer upload."
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Controlar Arquivos Públicos"
