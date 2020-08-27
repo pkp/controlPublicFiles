@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-21 12:28+0000\n"
+"Last-Translator: Manolis Saldaris <omanos@gmail.com>\n"
+"Language-Team: Greek <http://translate.pkp.sfu.ca/projects/plugins/"
+"controlpublicfiles/el_GR/>\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p>Οι χρήστες μπορούν να ανεβάζουν εικόνες μέσω προγράμματος επεξεργασίας "
+"εμπλουτισμένου κειμένου που περιλαμβάνει το στοιχείο ελέγχου μεταφόρτωσης "
+"εικόνων. Αυτό περιλαμβάνει μέρη όπως η ενότητα Σχετικά με το Περιοδικό, "
+"καθώς και το Βιογραφικό Χρήστη στην περιοχή προφίλ κάθε χρήστη.</p><p>Οι "
+"παρακάτω ρυθμίσεις σάς επιτρέπουν να περιορίσετε ποιος μπορεί να ανεβάσει, "
+"τι είδους αρχεία και το μέγεθος του καταλόγου αρχείων τους.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr ""
+"Να μην επιτρέπεται στον {$role} η μεταφόρτωση αρχείων μέσω του προγράμματος "
+"επεξεργασίας κειμένου."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Απενεργοποίηση κατά ρόλο"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr ""
+"Να μην επιτρέπεται σε κανέναν χρήστη η μεταφόρτωση αρχείων μέσω του "
+"προγράμματος επεξεργασίας κειμένου."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Απενεργοποίηση όλων των μεταφορτώσεων"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"Περιορίστε τι είδους αρχεία μπορούν να μεταφορτωθούν. Διαχωρίστε κάθε "
+"κατάληξη με κόμμα. Η προεπιλογή είναι \"gif, jpg, png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Επιτρεπόμενοι Τύποι Αρχείων"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"Καθρίστε το μέγιστο μέγεθος του δημόσιου καταλόγου μεταφόρτωσης κάθε χρήστη "
+"σε bytes. Η προεπιλογή είναι 25000 (25mb)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Επιτρεπτό Μέγεθος Καταλόγου"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr ""
+"Οριοθετήστε ποιος μπορεί να ανεβάσει δημόσια αρχεία και τι είδους αρχεία "
+"επιτρέπονται."
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Διαχείριση Δημόσιων Αρχείων"

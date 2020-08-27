@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-11 17:40+0000\n"
+"Last-Translator: Tran Ngoc Trung <khuchatthienduong@gmail.com>\n"
+"Language-Team: Vietnamese <http://translate.pkp.sfu.ca/projects/plugins/"
+"controlpublicfiles/vi_VN/>\n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p>Người dùng có thể tải lên hình ảnh bất cứ nơi nào họ được trình bày với "
+"trình chỉnh sửa văn bản phong phú bao gồm kiểm soát tải lên hình ảnh. Điều "
+"này bao gồm các địa điểm như phần Giới thiệu về Nhật ký cũng như tiểu sử "
+"người dùng trong mọi khu vực hồ sơ của người dùng.</p><p>Các cài đặt bên "
+"dưới cho phép bạn hạn chế người có thể tải lên, loại tệp nào họ có thể tải "
+"lên và mức độ lớn thư mục tệp của họ có thể phát triển.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "Không cho phép {$role} tải lên tệp thông qua trình soạn thảo văn bản."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Vô hiệu hóa theo vai trò"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr ""
+"Không cho phép bất kỳ người dùng nào tải lên tệp thông qua trình soạn thảo "
+"văn bản."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Vô hiệu hóa tất cả các tải lên"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"Giới hạn loại tập tin có thể được tải lên. Tách mỗi tệp bằng dấu phẩy. Mặc "
+"định là \"gif,jpg,png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Loại tệp được phép"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"Đặt giới hạn cho tổng kích thước tệp của mỗi thư mục tải lên công khai của "
+"người dùng theo byte. Mặc định là 25000 (25mb)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Kích thước thư mục được phép"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr ""
+"Giới hạn người có thể tải lên các tệp công khai và loại tệp nào họ có thể "
+"tải lên."
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Kiểm soát tập tin công khai"

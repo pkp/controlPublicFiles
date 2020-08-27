@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-24 14:47+0000\n"
+"Last-Translator: Jiří Dlouhý <jiri.dlouhy@czp.cuni.cz>\n"
+"Language-Team: Czech <http://translate.pkp.sfu.ca/projects/plugins/"
+"controlpublicfiles/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "Zakázat roli  {$role} nahrávat soubory pomocí textového editoru."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Zakázání v závislosti na roli"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr "Zakázat všem uživatelům soubor pomocí textového editoru."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Zakázat jakékoliv nahrávání"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"Omezte, jaké typy souborů se mohou nahrávat. Každý typ oddělte čárkou. "
+"Přednastavená hodnota je \"gif,jpg,png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Povolené typy souborů"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"Nastavení limitu celkové velikosti souborů, které může každý uživatel nahrát "
+"do knihovny v bytech. Standardně nastavená hodnota je 25 000 (25 MB)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Povolená velikost knihovny"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr ""
+"Omezuje, kdo může nahrávat veřejné soubory a také jaké druhy souborů mohou "
+"být nahrávány."
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Kontrola veřejných souborů"
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p>Uživatelé mohou nahrávat obrázky v rámci editování textu v RTF editoru, "
+"který zahrnuje kontrolu nahrávaných obrázků. To zahrnuje místa jako sekce „O "
+"časopisu“ či uživatelské biografie v uživatelském profilu.</p><p>Níže "
+"uvedená nastavení dovolují omezit, kdo může obrázky nahrávat, typ "
+"nahrávaných souborů a celkovou velikost knihoven jednotlivých uživatelů.</p>"
