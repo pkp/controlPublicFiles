@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2020-10-19 15:42+0000\n"
-"Last-Translator: Tom Granroth <tom.granroth@tsv.fi>\n"
+"Last-Translator: Antti-Jussi Nygård <ajnyga@gmail.com>\n"
 "Language-Team: Finnish <http://translate.pkp.sfu.ca/projects/plugins/"
 "controlpublicfiles/fi_FI/>\n"
 "Language: fi_FI\n"
@@ -24,3 +24,15 @@ msgstr "Sallitut tiedostotyypit"
 
 msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
 msgstr "Sallittu hakemiston koko"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"Aseta rajoitus tiedostojen yhteiskoolle kunkin käyttäjän julkisessa "
+"hakemistossa tavuina. Oletuskoko on 25000 (25 mb)."
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr ""
+"Rajoita kuka voi lähettää julkisia tiedostoja ja millaisia ne voivat olla."
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Hallitse julkisia tiedostoja"
