@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-01-17 14:53+0000\n"
+"PO-Revision-Date: 2021-01-20 20:53+0000\n"
 "Last-Translator: Eirik Hanssen <eirikh@oslomet.no>\n"
 "Language-Team: Norwegian Bokmål <http://translate.pkp.sfu.ca/projects/"
 "plugins/controlpublicfiles/nb_NO/>\n"
@@ -13,3 +13,45 @@ msgstr ""
 
 msgid "plugins.generic.controlPublicFiles.displayName"
 msgstr "Kontroller offentlige filer"
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p>Brukerne kan laste opp bilder, uansett der de presenteres med en rtf-"
+"teksteditor som har kontrollen for opplasting av bilder. Dette gjelder "
+"steder som avsnittet \"Om tidsskriftet\" samt brukerbiografien i alle "
+"brukeres profilområde.</p><p>Innstilligene nedenfor lar deg begrense hvem "
+"som kan laste opp, hva slags filer de kan laste opp, og hvor mye "
+"lagringsplass opplastingsmappen til hver bruker får lov til å bruke.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "La ikke {$role} laste opp filer via tekst-editoren."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Deaktiver etter rolle"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr "Ikke tillat noen brukere å laste opp filer gjennom tekst-editoren."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Deaktiver alle opplastinger"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"Begrens hvilke filtyper som kan lastes opp. Separer hver filtype med komma. "
+"Standard er \"gif,jpg,png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Tillatte filtyper"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"Sett en grense for den totale filstørelsen hver brukers offentlig "
+"tilgjengelige opplastingsmappe kan være i bytes. Standard er 25000 (25Mb)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Tillatt mappestørrelse"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr ""
+"Begrens hvem som kan laste opp offentlig tilgjengelige filer, og hvilke "
+"filtyper de kan laste opp."
