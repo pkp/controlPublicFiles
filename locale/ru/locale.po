@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-18 08:52+0000\n"
+"Last-Translator: Pavel Pisklakov <ppv1979@mail.ru>\n"
+"Language-Team: Russian <http://translate.pkp.sfu.ca/projects/plugins/"
+"controlpublicfiles/ru_RU/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p>Пользователи могут загружать изображения в любые места, где они могут "
+"быть представлены, с помощью текстового редактора, в котором есть функция "
+"управления загрузкой изображений. Среди таких мест — раздел «О журнале», а "
+"также биография пользователя, в профиле каждого пользователя.</p><p>"
+"Настройки ниже позволяют вам ограничить тех, кто может загружать "
+"изображения, какого типа файлы они могут загружать и насколько сильно может "
+"расти их каталог с файлами.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr ""
+"Запретить пользователям с ролью «{$role}» загружать файлы через текстовый "
+"редактор."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Отключить для определённых ролей"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr "Запретить пользователям загружать файлы через текстовый редактор."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Отключить все загрузки"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"Ограничьте типы файлов, которые можно загружать, разделяя их запятой. По "
+"умолчанию — «gif,jpg,png»."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Разрешённые типы файлов"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"Задайте ограничение суммарного размера файлов в байтах для каждого "
+"пользователя в каталоге для общих файлов. По умолчанию — 25000 (25mb)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Разрешённый размер каталога"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr ""
+"Ограничивает, кто может загружать общие файлы, и какого типа файлы они могут "
+"загружать."
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Управление общими файлами"

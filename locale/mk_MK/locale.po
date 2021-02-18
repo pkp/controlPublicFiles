@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-02-09 08:32+0000\n"
+"Last-Translator: Teodora Fildishevska <t.fildishevska@gmail.com>\n"
+"Language-Team: Macedonian <http://translate.pkp.sfu.ca/projects/plugins/"
+"controlpublicfiles/mk_MK/>\n"
+"Language: mk_MK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n==1 || n%10==1 ? 0 : 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p>Корисници можат да прикачуваат слики кога ќе им биде прикажан богат "
+"текстуален уредник кој вклучува функција за прикачување на слики. Ова ги "
+"вклучува областите како секцијата За списанието како и биографијата на "
+"корисникот во профилот на секој корисник.</p><p>Поставките подолу ви "
+"дозволуваат да ограничите кој може да прикачува, каков тип на датотеки можта "
+"да прикачуваат, и која големина може да ја достигне нивниот директориум со "
+"датотеки.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "Не дозволувај {$role} да прикачува датотеки преку текстуалниот уредник."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Оневозможи според улога"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr ""
+"Не дозволувај ниту еден корисник да прикачува датотеки преку текстуалниот "
+"уредник."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Оневозможи ги сите прикачувања"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"Ограничи каков тип на датотеки можат да бидат прикачени. Оддели ја секоја "
+"дтотека со запирка. Стандардните се \"gif,jpg,png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Дозволени типови датотеки"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"Постави ограничување на вкупната големина на јавниот директориум за "
+"прикачување на секој корисник во бајти. Стандардната е 25000 (25mb)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Дозволена големина на директориум"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr ""
+"Ограничи лица кои можат да прикачуваат јавни датотеки и кој тип на датотеки "
+"можат да прикачат."
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Управувај со јавни датотеки"

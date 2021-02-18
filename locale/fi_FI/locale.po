@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-19 15:42+0000\n"
+"PO-Revision-Date: 2020-12-12 11:52+0000\n"
 "Last-Translator: Antti-Jussi Nygård <ajnyga@gmail.com>\n"
 "Language-Team: Finnish <http://translate.pkp.sfu.ca/projects/plugins/"
 "controlpublicfiles/fi_FI/>\n"
@@ -36,3 +36,24 @@ msgstr ""
 
 msgid "plugins.generic.controlPublicFiles.displayName"
 msgstr "Hallitse julkisia tiedostoja"
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p>Käyttäjät voivat tallentaa kuvia palvelimelle, jos järjestelmän "
+"tekstimuokkaimessa (TinyMCE) on käytössä kuvien lisäämiseen tarkoitettu "
+"toiminto. Tekstimuokkain on käytössä esimerkiksi Tietoa julkaisusta -"
+"kohdassa ja käyttäjän profiilin muokkaamiseen liittyvissä asetuksissa.</p>\n"
+"<p>Alapuolella olevat asetukset antavat sinun asettaa rajoituksia ketkä "
+"saavat tallentaa tiedostoja, millaisia tiedostoja saa tallentaa ja kuinka "
+"suureksi tiedostohakemiston koko voi kasvaa.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr ""
+"Älä salli roolia {$role} käyttävien tallentaa tiedostoja palvelimelle "
+"tekstimuokkaimesta."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr "Älä salli käyttäjien ladata tiedostoja palvelimelle tekstimuokkaimesta."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Estä palvelimelle lataaminen"

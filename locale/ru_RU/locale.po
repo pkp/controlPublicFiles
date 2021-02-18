@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-02-09 08:32+0000\n"
+"Last-Translator: Pavel Pisklakov <ppv1979@mail.ru>\n"
+"Language-Team: Russian <http://translate.pkp.sfu.ca/projects/plugins/"
+"controlpublicfiles/ru_RU/>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p>Пользователи могут загружать изображения в любом месте, где им доступен "
+"текстовый редактор, в котором есть возможность управления загрузкой "
+"изображений. Среди таких мест, например, раздел «О журнале», а также "
+"биография пользователя в каждом профиле пользователя.</p><p>Настройки ниже "
+"позволяет Вам ограничить круг тех, кто может загружать файлы, а также "
+"указать, какие именно файлы они могут загружать и насколько большим может "
+"быть их каталог с файлами.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "Запретить {$role} загружать файлы через текстовый редактор."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Отключить по роли"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr "Запретить всем пользователям загружать файлы через текстовый редактор."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Отключить все загрузки"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"Задаёт ограничение на общий размер файлов в байтах, который каждый "
+"пользователь может загрузить в каталог общий файлов. По умолчанию — 25000 ("
+"25 Мб)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"Задаёт ограничение на типы файлов, которые могут быть загружены. Отделяйте "
+"типы файлов с помощью запятой. По умолчанию — «gif,jpg,png»."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Разрешённые типы файлов"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Разрешённый размер каталога"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr ""
+"Ограничивает список людей, которые могут загружать общие файлы, и типы "
+"файлов, которые они могут загружать."
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Управление общими файлами"
