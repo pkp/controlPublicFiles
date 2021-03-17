@@ -1,2 +1,58 @@
 msgid ""
-msgstr "X-Generator: Weblate\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit"
+msgstr ""
+"PO-Revision-Date: 2021-03-17 11:33+0000\n"
+"Last-Translator: Real Academia Galega <reacagal@gmail.com>\n"
+"Language-Team: Galician <http://translate.pkp.sfu.ca/projects/plugins/"
+"controlpublicfiles/gl_ES/>\n"
+"Language: gl_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p>Os usuarios/as poden cargar imaxes en calquera lugar onde apareza un "
+"editor de texto enriquecido que inclúa o control de carga de imaxes. Isto "
+"abrangue lugares como a sección \"Acerca de\", así como a biografía do "
+"usuario/a na área do perfil de cada un.</p><p>A configuración de abaixo "
+"permítelle restrinxir quen pode cargar, que tipo de arquivos pode cargar e "
+"que tamaño teñen, e ata onde pode medrar o seu cartafol de arquivos.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "Non permitir que {$role} cargue arquivos a través do editor de texto."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Deshabilitar por roles"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr ""
+"Non permitir a ningún usuario/a cargar arquivos a través do editor de texto."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Deshabilitar todas as cargas"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"Limita o tipo de arquivos que se poden cargar. Separe cada un cunha coma. O "
+"predeterminado é \"gif, jpg, png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Tipos de arquivo permitidos"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"Estableza para cada usuario un límite para o tamaño do arquivo que pode "
+"cargar no cartafol público, en bytes. O valor predeterminado é 25000 (25 MB)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Tamaño do cartafol permitido"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr ""
+"Limita quen pode cargar arquivos públicos e que tipo de arquivos poden "
+"cargar."
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Controlar arquivos públicos"
