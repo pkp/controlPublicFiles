@@ -1,7 +1,7 @@
 # Cyril Kamburov <cc@intermedia.bg>, 2022.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-01 09:51+0000\n"
+"PO-Revision-Date: 2022-04-03 12:58+0000\n"
 "Last-Translator: Cyril Kamburov <cc@intermedia.bg>\n"
 "Language-Team: Bulgarian <http://translate.pkp.sfu.ca/projects/plugins/"
 "controlpublicfiles/bg_BG/>\n"
@@ -14,3 +14,46 @@ msgstr ""
 
 msgid "plugins.generic.controlPublicFiles.displayName"
 msgstr "Контрол на публичните файлове"
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p>Потребителите могат да качват изображения навсякъде, където са "
+"представени, с разширен текстов редактор, който включва контрола за качване "
+"на изображения. Това включва места като секцията „За списанието“, както и "
+"биографията на потребителя в областта на потребителския профил на всеки "
+"потребител.</p><p>Настройките по-долу ви позволяват да ограничите кой може "
+"да качва, какви файлове може да качва и колко голяма да бъде съответната "
+"директория с файлове.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "Не позволявайте на {$role} да качва файлове през текстовия редактор."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Деактивиране по роля"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr ""
+"Не позволявайте на потребители да качват файлове през текстовия редактор."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Деактивирайте всички качвания"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"Ограничете какви файлове могат да се качват. Разделете всеки файл със "
+"запетая. По подразбиране е \"gif,jpg,png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Разрешени типове файлове"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"Задайте ограничение за общия размер на файла на публичната директория за "
+"качване на всеки потребител в байтове. По подразбиране е 25000 (25mb)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Разрешен размер на директорията"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr ""
+"Ограничете кой може да качва публични файлове и какви файлове може да качва."
