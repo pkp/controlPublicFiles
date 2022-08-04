@@ -96,7 +96,7 @@ class ControlPublicFilesSettingsForm extends Form {
 	 *
 	 * @return null|mixed
 	 */
-	public function execute() {
+	public function execute(...$functionArgs) {
 		$contextId = Application::get()->getRequest()->getContext()->getId();
 		$this->plugin->updateSetting($contextId, 'publicationStatement', $this->getData('publicationStatement'));
 		$this->plugin->updateSetting($contextId, 'allowedFileTypes', $this->getData('allowedFileTypes'));
@@ -113,6 +113,6 @@ class ControlPublicFilesSettingsForm extends Form {
 			['contents' => __('common.changesSaved')]
 		);
 
-		return parent::execute();
+		return parent::execute(...$functionArgs);
 	}
 }
