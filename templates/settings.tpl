@@ -52,13 +52,11 @@
 		{/fbvFormSection}
 		{fbvFormSection label="plugins.generic.controlPublicFiles.setting.disableRoles" for="disableRoles" list=true}
 			{foreach from=$roles key=$roleId item=$role}
-				{if $disableRoles}
-					{if in_array($roleId, $disableRoles)}
-						{assign var="checked" value=true}
-					{else}
-						{assign var="checked" value=false}
-					{/if}
-                {/if}
+				{if  $disableRoles && in_array($roleId, $disableRoles)}
+					{assign var="checked" value=true}
+				{else}
+					{assign var="checked" value=false}
+				{/if}
 				{capture assign="label"}{translate key="plugins.generic.controlPublicFiles.setting.disableRoles.option" role=$role}{/capture}
 				{fbvElement
 					type="checkbox"
