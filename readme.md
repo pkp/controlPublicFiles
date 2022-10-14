@@ -8,10 +8,6 @@ This plugin provides settings to restrict who can upload, what kind of files the
 
 ![Screenshot of plugin settings](screenshot.png)
 
-## Compatibility
-* OJS 3.2.x
-* OMP 3.2.x
-
 ## Installation
 
-You can install this plugin from the plugin gallery in OJS or OMP after upgrading to v3.2.
+Use the Plugin Gallery to install this plugin from within the application.

@@ -1,14 +1,12 @@
 <?php
 /**
- * @file plugins/generic/controlPublicFiles/ControlPublicFilesPlugin.inc.php
+ * @file ControlPublicFilesPlugin.inc.php
  *
- * Copyright (c) 2017-2019 Simon Fraser University
- * Copyright (c) 2017-2019 John Willinsky
- * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ * Copyright (c) 2017-2022 Simon Fraser University
+ * Copyright (c) 2017-2022 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
  * @class ControlPublicFilesPlugin
- * @ingroup plugins_generic_controlPublicFiles
- *
  * @brief Plugin class for the ControlPublicFiles plugin.
  */
 import('lib.pkp.classes.plugins.GenericPlugin');
