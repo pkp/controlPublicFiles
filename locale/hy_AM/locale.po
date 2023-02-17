@@ -1,0 +1,61 @@
+# Artashes Mirzoyan <amirzoyan@sci.am>, 2022.
+# Tigran Zargaryan <tigran@flib.sci.am>, 2022.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-07-03 06:31+0000\n"
+"Last-Translator: Tigran Zargaryan <tigran@flib.sci.am>\n"
+"Language-Team: Armenian <http://translate.pkp.sfu.ca/projects/plugins/"
+"controlpublicfiles/hy_AM/>\n"
+"Language: hy_AM\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p>Օգտատերերը կարող են վերբեռնել պատկերներ, ցանկացած տեղից ունենալով հարուստ "
+"տեքստային խմբագրիչ, որը ներառում է պատկերների վերբեռնման կառավարումը: Սա "
+"ներառում է այնպիսի կետեր, ինչպիսիք են Ամսագրի մասին բաժինը, ինչպես նաև "
+"օգտատիրոջ կենսագրությունը յուրաքանչյուր օգտատիրոջ պրոֆիլի տարածքում:</p><p>"
+"Ստորև նշված կարգավորումները թույլ են տալիս սահմանափակել, թե ովքեր կարող են "
+"վերբեռնել, ինչպիսի նիշքեր կարող են վերբեռնել և որքան կարող է աճել նրանց "
+"նիշքերի գրացուցակը:</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "Թույլ մի տվեք {$role} -ին նիշքեր վերբեռնել տեքստային խմբագրիչի միջոցով:"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Անջատել ըստ դերի"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr ""
+"Թույլ մի տվեք որևէ օգտվողի նիշքեր վերբեռնել տեքստային խմբագրիչի միջոցով:"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Անջատել բոլոր վերբեռնումները"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"Սահմանափակեք, թե ինչ տեսակի նիշքեր կարող են վերբեռնվել: Յուրաքանչյուր նիշք "
+"առանձնացրեք ստորակետով: Լռելյայնն է «gif, jpg, png»:"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Նիշքերի թույլատրված տեսակներ"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"Սահմանեք յուրաքանչյուր օգտվողի հանրային վերբեռնման գրացուցակի ընդհանուր "
+"նիշքի չափը բայթերով: Կանխադրվածը 25000 է (25մբ):"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Գրացուցակի թույլատրված չափը"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr ""
+"Սահմանափակեք, թե ովքեր կարող են վերբեռնել հանրային նիշքեր և ինչ տեսակի "
+"նիշքեր նրանք կարող են վերբեռնել:"
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Վերահսկել հանրային նիշքերը"

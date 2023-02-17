@@ -1,0 +1,58 @@
+# Studiorimau <studiorimau@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-10-26 00:23+0000\n"
+"Last-Translator: Studiorimau <studiorimau@gmail.com>\n"
+"Language-Team: Malay <http://translate.pkp.sfu.ca/projects/plugins/"
+"controlpublicfiles/ms/>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p> Pengguna boleh memuat naik gambar di mana sahaja mereka disertakan "
+"dengan editor teks yang merangkumi kawalan muat naik gambar. Ini termasuk "
+"tempat seperti bahagian Mengenai Jurnal serta biografi pengguna dalam setiap "
+"kawasan profil pengguna.</p><p>Tetapan di bawah membolehkan anda mengehadkan "
+"orang yang boleh memuat naik, jenis fail yang boleh mereka muat naik dan "
+"saiznya. direktori fail mereka dapat berkembang. </p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "Jangan biarkan {$role} memuat naik fail melalui editor teks."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Nyahdayakan Mengikut Peranan"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr "Jangan biarkan pengguna memuat naik fail melalui editor teks."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Nyahdayakan Semua Muat Naik"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"Hadkan jenis fail yang boleh dimuat naik. Pisahkan setiap fail dengan koma. "
+"Lalai adalah \"gif, jpg, png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Jenis Fail yang Dibenarkan"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"Tetapkan had kepada jumlah saiz fail direktori muat naik awam setiap "
+"pengguna dalam bytes. Lalai ialah 25000 (25mb)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Saiz Direktori yang dibenarkan"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr ""
+"Hadkan siapa yang boleh memuat naik fail awam dan jenis fail apa yang boleh "
+"mereka muat naik."
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Kawal Fail Awam"
