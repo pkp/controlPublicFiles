@@ -24,7 +24,7 @@
 	<!-- Always add the csrf token to secure your form -->
 	{csrf}
 
-    {fbvFormArea id="controlPublicFilesSettingsCommon"}
+    	{fbvFormArea id="controlPublicFilesSettingsCommon"}
 		{fbvFormSection label="plugins.generic.controlPublicFiles.setting.disableAllUploads" for="disableAllUploads" list=true}
 			{fbvElement
 				type="checkbox"
@@ -52,7 +52,7 @@
 		{/fbvFormSection}
 		{fbvFormSection label="plugins.generic.controlPublicFiles.setting.disableRoles" for="disableRoles" list=true}
 			{foreach from=$roles key=$roleId item=$role}
-                {if in_array($roleId, $disableRoles|default:[])}
+                		{if in_array($roleId, $disableRoles|default:[])}
 					{assign var="checked" value=true}
 				{else}
 					{assign var="checked" value=false}
