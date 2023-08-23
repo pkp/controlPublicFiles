@@ -24,7 +24,7 @@
 	<!-- Always add the csrf token to secure your form -->
 	{csrf}
 
-	{fbvFormArea}
+	{fbvFormArea id="controlPublicFilesSettingsCommon"}
 		{fbvFormSection label="plugins.generic.controlPublicFiles.setting.disableAllUploads" for="disableAllUploads" list=true}
 			{fbvElement
 				type="checkbox"
