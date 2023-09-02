@@ -1,8 +1,56 @@
 # M. Ali <vorteem@gmail.com>, 2023.
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-09-02 04:01+0000\n"
+"Last-Translator: M. Ali <vorteem@gmail.com>\n"
+"Language-Team: Arabic <http://translate.pkp.sfu.ca/projects/plugins/"
+"controlpublicfiles/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Weblate\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 4.13.1\n"
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "التحكم بالملفات العامة"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr "تحديد من بإمكانه رفع الملفات العامة وتحديد أنواعها."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "حجم المجلد المسموح به"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr ""
+"وضع حد لأقصى حجم إجمالي من ملفات المستخدم لكل مجلد عمومي للمستخدمين مقاسًا "
+"بالبايت. الافتراضي هو 25000 (25mb)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "أنواع الملفات المسموح بها"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"تقييد أنواع الملفات التي بالإمكان رفعها. إفصل ما بين الأنواع بفارزة "
+"إنجليزية. الافتراضي هو \"gif,jpg,png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "تعطيل كل عمليات الرفع"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "التعطيل حسب الدور"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr "لا تسمح لأي مستخدم برفع الملفات باستعمال محرر النصوص."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "لا تسمح لمن يمتلك دور {$role} برفع الملفات باستعمال محرر النصوص."
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr ""
+"<p>يمكن للمستخدمين رفع الصور كلما عرض لهم محرر نصوص يشتمل على خاصية رفع "
+"الصور. هذا يشمل مواضع متعددة مثل مقطع عن المجلة فضلاً عن السيرة الذاتية "
+"للمستخدم في كل مناطق ملفاتهم الشخصية.</p><p>الإعدادات أدناه تسمح لك بتقييد "
+"من بإمكانه الرفع، ما أنواع الملفات التي يمكنه رفعها، وإلى أي حد يمكن أن "
+"يتوسع مجلد ملفاته.</p>"
