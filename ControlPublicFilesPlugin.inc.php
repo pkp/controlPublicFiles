@@ -9,6 +9,7 @@
  * @class ControlPublicFilesPlugin
  * @brief Plugin class for the ControlPublicFiles plugin.
  */
+
 import('lib.pkp.classes.plugins.GenericPlugin');
 class ControlPublicFilesPlugin extends GenericPlugin {
 
@@ -19,6 +20,7 @@ class ControlPublicFilesPlugin extends GenericPlugin {
 		$success = parent::register($category, $path);
 		if ($success && $this->getEnabled()) {
 			HookRegistry::register('API::uploadPublicFile::permissions', [$this, 'setPublicFilePermissions']);
+			HookRegistry::register('newlibraryfileform::validate', [$this, 'validateLibraryFile']);
 		}
 		return $success;
 	}
@@ -172,6 +174,22 @@ class ControlPublicFilesPlugin extends GenericPlugin {
 		$customFileTypes = $this->getSetting($request->getContext()->getId(), 'allowedFileTypes');
 		if (!is_null($customFileTypes) && strlen($customFileTypes)) {
 			$allowedFileTypes = explode(',', $customFileTypes);
+		}
+	}
+
+	public function validateLibraryFile($hookName, $params) {
+		$request = Application::get()->getRequest();
+		$customFileTypes = $this->getSetting($request->getContext()->getId(), 'allowedFileTypes');
+		if(array_key_exists('uploadedFile', $_FILES)) {
+			$filename = $_FILES['uploadedFile'];
+			$extension = pathinfo($filename)['extension'];
+			if(!in_array($extension, explode(',', $customFileTypes))) {
+				$temporaryFileDao = DAORegistry::getDAO('TemporaryFileDAO'); /* @var $temporaryFileDao TemporaryFileDAO */
+				$tempFileId = $temporaryFileDao->getInsertId();
+				$temporaryFileDao->deleteTemporaryFileById($tempFileId, $request->getUser()->getId());
+
+				throw new Exception('Invalid file type');
+			}
 		}
 	}
 }
