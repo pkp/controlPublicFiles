@@ -21,6 +21,7 @@ class ControlPublicFilesPlugin extends GenericPlugin {
 		if ($success && $this->getEnabled()) {
 			HookRegistry::register('API::uploadPublicFile::permissions', [$this, 'setPublicFilePermissions']);
 			HookRegistry::register('newlibraryfileform::validate', [$this, 'validateLibraryFile']);
+			HookRegistry::register('temporaryfiledao::_insertobject', [$this, 'validateTemporaryFile']);
 		}
 		return $success;
 	}
@@ -179,16 +180,45 @@ class ControlPublicFilesPlugin extends GenericPlugin {
 
 	public function validateLibraryFile($hookName, $params) {
 		$request = Application::get()->getRequest();
-		$customFileTypes = $this->getSetting($request->getContext()->getId(), 'allowedFileTypes');
-		if(array_key_exists('uploadedFile', $_FILES)) {
-			$filename = $_FILES['uploadedFile'];
-			$extension = pathinfo($filename)['extension'];
-			if(!in_array($extension, explode(',', $customFileTypes))) {
-				$temporaryFileDao = DAORegistry::getDAO('TemporaryFileDAO'); /* @var $temporaryFileDao TemporaryFileDAO */
-				$tempFileId = $temporaryFileDao->getInsertId();
-				$temporaryFileDao->deleteTemporaryFileById($tempFileId, $request->getUser()->getId());
+		$sessionManager = SessionManager::getManager();
+		$session = $sessionManager->getUserSession();
+		$invalidFileKey = 'invalid-upload_'. $request->getUser()->getId() . '_' . $request->getUserVar('submissionId');
 
-				throw new Exception('Invalid file type');
+		if ($session->getSessionVar($invalidFileKey)) {
+			$session->unsetSessionVar($invalidFileKey);
+			$form = $params[0];
+			$form->addError('fileType', 'Invalid file type');
+		}
+	}
+
+	public function validateTemporaryFile($hookName, $params) {
+		$request = Application::get()->getRequest();
+		if(array_key_exists('uploadedFile', $_FILES)) {
+			$stillDontUpload = false;
+			$mimeKeys = json_decode(file_get_contents('./plugins/generic/controlPublicFiles/mimes.json'), TRUE);
+			$allowedFileTypes = explode(',', $this->getSetting($request->getContext()->getId(), 'allowedFileTypes'));
+			$allowedMimes = [];
+			foreach($allowedFileTypes as $allowedFileType) {
+				if ($allowedFileType[0] !== '.') $allowedFileType = '.' . $allowedFileType;
+				if(array_key_exists($allowedFileType, $mimeKeys)) {
+					foreach($mimeKeys[$allowedFileType] as $mime) {
+						$allowedMimes[] = $mime;
+					}
+				} else {
+					error_log('unable to lookup filetype: ' . $allowedFileType);
+					$path = $_FILES['uploadedFile']['name'];
+					$ext = pathinfo($path, PATHINFO_EXTENSION);
+					if (!in_array($ext, $allowedFileTypes)) $stillDontUpload = true;
+				}
+			}
+
+			if(!in_array($_FILES['uploadedFile']['type'], $allowedMimes) || $stillDontUpload) {
+				$sessionManager = SessionManager::getManager();
+				$session = $sessionManager->getUserSession();
+				$invalidFileKey = 'invalid-upload_'. $request->getUser()->getId() . '_' . $request->getUserVar('submissionId');
+				$session->unsetSessionVar($invalidFileKey);
+				$session->setSessionVar($invalidFileKey, true);
+				error_log('set session ' . $invalidFileKey);
 			}
 		}
 	}
