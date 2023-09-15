@@ -43,3 +43,12 @@ msgstr "Don't allow {$role} to upload files through the text editor."
 
 msgid "plugins.generic.controlPublicFiles.settings.description"
 msgstr "<p>Users can upload images wherever they are presented with a rich text editor that includes the image upload control. This includes places like the About the Journal section as well as the user biography in every user's profile area.</p><p>The settings below allow you to restrict who can upload, what kind of files they can upload, and how large their directory of files can grow.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Apply To Library File Upload"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Apply file type rules to submission library file upload"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Invalid File Type"

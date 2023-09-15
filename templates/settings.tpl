@@ -69,6 +69,18 @@
 				}
 			{/foreach}
 		{/fbvFormSection}
+
+		{fbvFormSection label="plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads" for="applyToLibraryFileUploads" list=true}
+			{fbvElement
+				type="checkbox"
+				name="applyToLibraryFileUploads"
+				id="applyToLibraryFileUploads"
+				checked=$applyToLibraryFileUploads
+				value=true
+				label="plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+				translate="true"
+			}
+		{/fbvFormSection}
 	{/fbvFormArea}
 	{fbvFormButtons submitText="common.save"}
 </form>
