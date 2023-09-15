@@ -186,7 +186,6 @@ class ControlPublicFilesPlugin extends GenericPlugin {
 			$invalidFileKey = 'invalid-upload_'. $request->getUser()->getId() . '_' . $request->getUserVar('submissionId');
 
 			if ($session->getSessionVar($invalidFileKey)) {
-				$session->unsetSessionVar($invalidFileKey);
 				$form = $params[0];
 				$form->addError('fileType', __('plugins.generic.controlPublicFiles.error'));
 			}
@@ -198,12 +197,15 @@ class ControlPublicFilesPlugin extends GenericPlugin {
 		if ($this->getSetting($request->getContext()->getId(), 'applyToLibraryFileUploads')) {
 			if($request->getRequestedOp() === 'uploadFile') {
 				if(array_key_exists('uploadedFile', $_FILES)) {
-					$stillDontUpload = false;
+					$sessionManager = SessionManager::getManager();
+					$session = $sessionManager->getUserSession();
+					$invalidFileKey = 'invalid-upload_'. $request->getUser()->getId() . '_' . $request->getUserVar('submissionId');
+					$canUpload = false;
 					$mimeKeys = json_decode(file_get_contents('./plugins/generic/controlPublicFiles/mimes.json'), TRUE);
 					$allowedFileTypes = explode(',', $this->getSetting($request->getContext()->getId(), 'allowedFileTypes'));
 					$allowedMimes = [];
 					foreach($allowedFileTypes as $allowedFileType) {
-						if ($allowedFileType[0] !== '.') $allowedFileType = '.' . $allowedFileType;
+						if ($allowedFileType[0] === '.') $allowedFileType = substr($allowedFileType, 1);
 						if(array_key_exists($allowedFileType, $mimeKeys)) {
 							foreach($mimeKeys[$allowedFileType] as $mime) {
 								$allowedMimes[] = $mime;
@@ -212,17 +214,14 @@ class ControlPublicFilesPlugin extends GenericPlugin {
 							error_log('unable to lookup filetype: ' . $allowedFileType);
 							$path = $_FILES['uploadedFile']['name'];
 							$ext = pathinfo($path, PATHINFO_EXTENSION);
-							if (!in_array($ext, $allowedFileTypes)) $stillDontUpload = true;
+							if (in_array($ext, $allowedFileTypes)) $canUpload = true;
 						}
 					}
 
-					if(!in_array($_FILES['uploadedFile']['type'], $allowedMimes) || $stillDontUpload) {
-						$sessionManager = SessionManager::getManager();
-						$session = $sessionManager->getUserSession();
-						$invalidFileKey = 'invalid-upload_'. $request->getUser()->getId() . '_' . $request->getUserVar('submissionId');
+					if(in_array($_FILES['uploadedFile']['type'], $allowedMimes) || $canUpload) {
 						$session->unsetSessionVar($invalidFileKey);
+					} else {
 						$session->setSessionVar($invalidFileKey, true);
-						error_log('set session ' . $invalidFileKey);
 					}
 				}
 			}
