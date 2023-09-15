@@ -21,7 +21,6 @@ class ControlPublicFilesPlugin extends GenericPlugin {
 		if ($success && $this->getEnabled()) {
 			HookRegistry::register('API::uploadPublicFile::permissions', [$this, 'setPublicFilePermissions']);
 			HookRegistry::register('newlibraryfileform::validate', [$this, 'validateLibraryFile']);
-			HookRegistry::register('temporaryfiledao::_insertobject', [$this, 'validateTemporaryFile']);
 		}
 		return $success;
 	}
@@ -180,50 +179,36 @@ class ControlPublicFilesPlugin extends GenericPlugin {
 
 	public function validateLibraryFile($hookName, $params) {
 		$request = Application::get()->getRequest();
-		if ($this->getSetting($request->getContext()->getId(), 'applyToLibraryFileUploads')) {
-			$sessionManager = SessionManager::getManager();
-			$session = $sessionManager->getUserSession();
-			$invalidFileKey = 'invalid-upload_'. $request->getUser()->getId() . '_' . $request->getUserVar('submissionId');
+		if($params[0]->_template === 'controllers/grid/files/submissionDocuments/form/newFileForm.tpl' && $request->getRequestedOp() === 'saveFile') {
+			if ($this->getSetting($request->getContext()->getId(), 'applyToLibraryFileUploads')) {
+				$temporaryFileDao = DAORegistry::getDAO('TemporaryFileDAO'); /* @var $temporaryFileDao TemporaryFileDAO */
+				$temporaryFile = $temporaryFileDao->retrieve(
+					'SELECT * FROM temporary_files WHERE user_id = ? ORDER BY date_uploaded DESC LIMIT 1',
+					[(int) $request->getUser()->getId()]
+				)->current();
 
-			if ($session->getSessionVar($invalidFileKey)) {
-				$form = $params[0];
-				$allowedExtensions = $this->getSetting($request->getContext()->getId(), 'allowedFileTypes');
-				$form->addError('fileType', __('plugins.generic.controlPublicFiles.error', array('allowedExtensions' => $allowedExtensions)));
-			}
-		}
-	}
-
-	public function validateTemporaryFile($hookName, $params) {
-		$request = Application::get()->getRequest();
-		if ($this->getSetting($request->getContext()->getId(), 'applyToLibraryFileUploads')) {
-			if($request->getRequestedOp() === 'uploadFile') {
-				if(array_key_exists('uploadedFile', $_FILES)) {
-					$sessionManager = SessionManager::getManager();
-					$session = $sessionManager->getUserSession();
-					$invalidFileKey = 'invalid-upload_'. $request->getUser()->getId() . '_' . $request->getUserVar('submissionId');
-					$canUpload = false;
-					$mimeKeys = json_decode(file_get_contents('./plugins/generic/controlPublicFiles/mimes.json'), TRUE);
-					$allowedFileTypes = explode(',', $this->getSetting($request->getContext()->getId(), 'allowedFileTypes'));
-					$allowedMimes = [];
-					foreach($allowedFileTypes as $allowedFileType) {
-						if ($allowedFileType[0] === '.') $allowedFileType = substr($allowedFileType, 1);
-						if(array_key_exists($allowedFileType, $mimeKeys)) {
-							foreach($mimeKeys[$allowedFileType] as $mime) {
-								$allowedMimes[] = $mime;
-							}
-						} else {
-							error_log('unable to lookup filetype: ' . $allowedFileType);
-							$path = $_FILES['uploadedFile']['name'];
-							$ext = pathinfo($path, PATHINFO_EXTENSION);
-							if (in_array($ext, $allowedFileTypes)) $canUpload = true;
+				$canUpload = false;
+				$mimeKeys = json_decode(file_get_contents('./plugins/generic/controlPublicFiles/mimes.json'), TRUE);
+				$allowedFileTypes = explode(',', $this->getSetting($request->getContext()->getId(), 'allowedFileTypes'));
+				$allowedMimes = [];
+				foreach($allowedFileTypes as $allowedFileType) {
+					if ($allowedFileType[0] === '.') $allowedFileType = substr($allowedFileType, 1);
+					if(array_key_exists($allowedFileType, $mimeKeys)) {
+						foreach($mimeKeys[$allowedFileType] as $mime) {
+							$allowedMimes[] = $mime;
 						}
-					}
-
-					if(in_array($_FILES['uploadedFile']['type'], $allowedMimes) || $canUpload) {
-						$session->unsetSessionVar($invalidFileKey);
 					} else {
-						$session->setSessionVar($invalidFileKey, true);
+						error_log('unable to lookup filetype: ' . $allowedFileType);
+						$ext = pathinfo($temporaryFile->original_file_name, PATHINFO_EXTENSION);
+						if (in_array($ext, $allowedFileTypes)) $canUpload = true;
 					}
+				}
+
+				if(!in_array($temporaryFile->file_type, $allowedMimes) && !$canUpload) {
+					$form = $params[0];
+					$allowedExtensions = $this->getSetting($request->getContext()->getId(), 'allowedFileTypes');
+					$form->addError('fileType', __('plugins.generic.controlPublicFiles.error', array('allowedExtensions' => $allowedExtensions)));
+					$temporaryFileDao->deleteByUserId($request->getUser()->getId());
 				}
 			}
 		}
