@@ -187,7 +187,8 @@ class ControlPublicFilesPlugin extends GenericPlugin {
 
 			if ($session->getSessionVar($invalidFileKey)) {
 				$form = $params[0];
-				$form->addError('fileType', __('plugins.generic.controlPublicFiles.error'));
+				$allowedExtensions = $this->getSetting($request->getContext()->getId(), 'allowedFileTypes');
+				$form->addError('fileType', __('plugins.generic.controlPublicFiles.error', array('allowedExtensions' => $allowedExtensions)));
 			}
 		}
 	}

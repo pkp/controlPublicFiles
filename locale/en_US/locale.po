@@ -51,4 +51,4 @@ msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.desc
 msgstr "Apply file type rules to submission library file upload"
 
 msgid "plugins.generic.controlPublicFiles.error"
-msgstr "Invalid File Type"
+msgstr "Only the following file extensions are allowed: {$allowedExtensions}."
