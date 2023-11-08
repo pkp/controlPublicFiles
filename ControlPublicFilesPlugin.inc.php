@@ -197,10 +197,6 @@ class ControlPublicFilesPlugin extends GenericPlugin {
 						foreach($mimeKeys[$allowedFileType] as $mime) {
 							$allowedMimes[] = $mime;
 						}
-					} else {
-						error_log('unable to lookup filetype: ' . $allowedFileType);
-						$ext = pathinfo($temporaryFile->original_file_name, PATHINFO_EXTENSION);
-						if (in_array($ext, $allowedFileTypes)) $canUpload = true;
 					}
 				}
 
@@ -208,7 +204,7 @@ class ControlPublicFilesPlugin extends GenericPlugin {
 					$form = $params[0];
 					$allowedExtensions = $this->getSetting($request->getContext()->getId(), 'allowedFileTypes');
 					$form->addError('fileType', __('plugins.generic.controlPublicFiles.error', array('allowedExtensions' => $allowedExtensions)));
-					$temporaryFileDao->deleteByUserId($request->getUser()->getId());
+					$temporaryFileDao->deleteTemporaryFileById($temporaryFile->file_id);
 				}
 			}
 		}
