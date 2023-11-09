@@ -48,14 +48,12 @@
   "eps": ["application/postscript"],
   "html": ["text/html", "text/plain"],
   "bib": ["application/x-bibtex"],
-  "rar": ["application/x-rar-compressed"],
-  "tex": ["application/x-tex"],
+  "tsv": ["text/tab-separated-values"],
+  "key": ["application/x-iwork-keynote-sffkey"],
+  "aiff": ["audio/x-aiff"],
   "ipynb": ["application/x-ipynb+json"],
   "c": ["text/x-c"],
   "cpp": ["text/x-c++src"],
   "java": ["text/x-java"],
-  "py": ["text/x-python"],
-  "tsv": ["text/tab-separated-values"],
-  "key": ["application/x-iwork-keynote-sffkey"],
-  "aiff": ["audio/x-aiff"]
+  "py": ["text/x-python"]
 }
