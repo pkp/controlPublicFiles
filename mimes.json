@@ -57,5 +57,5 @@
   "py": ["text/x-python"],
   "tsv": ["text/tab-separated-values"],
   "key": ["application/x-iwork-keynote-sffkey"],
-  "aiff": ["audio/x-aiff"],
+  "aiff": ["audio/x-aiff"]
 }

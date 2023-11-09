@@ -177,16 +177,22 @@ class ControlPublicFilesPlugin extends GenericPlugin {
 		}
 	}
 
+	/**
+	 * Validate a file uploaded by the submission library file uploader
+	 *
+	 * @param string $hookName newlibraryfileform::validate
+	 * @param array $params [[
+	 * 	@option NewLibraryFileForm The file upload form
+	 * ]]
+	 */
 	public function validateLibraryFile($hookName, $params) {
 		$request = Application::get()->getRequest();
-		if($params[0]->_template === 'controllers/grid/files/submissionDocuments/form/newFileForm.tpl' && $request->getRequestedOp() === 'saveFile') {
+		$form = $params[0];
+		if($form->_template === 'controllers/grid/files/submissionDocuments/form/newFileForm.tpl' && $request->getRequestedOp() === 'saveFile') {
 			if ($this->getSetting($request->getContext()->getId(), 'applyToLibraryFileUploads')) {
 				$temporaryFileDao = DAORegistry::getDAO('TemporaryFileDAO'); /* @var $temporaryFileDao TemporaryFileDAO */
-				$temporaryFile = $temporaryFileDao->retrieve(
-					'SELECT * FROM temporary_files WHERE user_id = ? ORDER BY date_uploaded DESC LIMIT 1',
-					[(int) $request->getUser()->getId()]
-				)->current();
-
+				$userId = $request->getUser()->getId();
+				$temporaryFile = $temporaryFileDao->getTemporaryFilesByUserId($userId)->current();
 				$canUpload = false;
 				$mimeKeys = json_decode(file_get_contents('./plugins/generic/controlPublicFiles/mimes.json'), TRUE);
 				$allowedFileTypes = explode(',', $this->getSetting($request->getContext()->getId(), 'allowedFileTypes'));
@@ -201,10 +207,9 @@ class ControlPublicFilesPlugin extends GenericPlugin {
 				}
 
 				if(!in_array($temporaryFile->file_type, $allowedMimes) && !$canUpload) {
-					$form = $params[0];
 					$allowedExtensions = $this->getSetting($request->getContext()->getId(), 'allowedFileTypes');
 					$form->addError('fileType', __('plugins.generic.controlPublicFiles.error', array('allowedExtensions' => $allowedExtensions)));
-					$temporaryFileDao->deleteTemporaryFileById($temporaryFile->file_id);
+					$temporaryFileDao->deleteTemporaryFileById($temporaryFile->file_id, $userId);
 				}
 			}
 		}
