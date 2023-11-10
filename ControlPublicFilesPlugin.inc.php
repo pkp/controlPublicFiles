@@ -192,7 +192,7 @@ class ControlPublicFilesPlugin extends GenericPlugin {
 			if ($this->getSetting($request->getContext()->getId(), 'applyToLibraryFileUploads')) {
 				$temporaryFileDao = DAORegistry::getDAO('TemporaryFileDAO'); /* @var $temporaryFileDao TemporaryFileDAO */
 				$userId = $request->getUser()->getId();
-				$temporaryFile = $temporaryFileDao->getTemporaryFilesByUserId($userId)->current();
+				$temporaryFile = $temporaryFileDao->getTemporaryFilesByUserId($userId)->records->current();
 				$canUpload = false;
 				$mimeKeys = json_decode(file_get_contents('./plugins/generic/controlPublicFiles/mimes.json'), TRUE);
 				$allowedFileTypes = explode(',', $this->getSetting($request->getContext()->getId(), 'allowedFileTypes'));
