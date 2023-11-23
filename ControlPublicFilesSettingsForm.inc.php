@@ -42,6 +42,7 @@ class ControlPublicFilesSettingsForm extends Form {
 		$this->setData('allowedDirSize', $this->plugin->getSetting($contextId, 'allowedDirSize'));
 		$this->setData('disableAllUploads', $this->plugin->getSetting($contextId, 'disableAllUploads'));
 		$this->setData('disableRoles', $this->plugin->getSetting($contextId, 'disableRoles'));
+		$this->setData('applyToLibraryFileUploads', $this->plugin->getSetting($contextId, 'applyToLibraryFileUploads'));
 		parent::initData();
 	}
 
@@ -49,7 +50,7 @@ class ControlPublicFilesSettingsForm extends Form {
 	 * Load data that was submitted with the form
 	 */
 	public function readInputData() {
-		$this->readUserVars(['allowedFileTypes', 'allowedDirSize', 'disableAllUploads', 'disableRoles']);
+		$this->readUserVars(['allowedFileTypes', 'allowedDirSize', 'disableAllUploads', 'disableRoles', 'applyToLibraryFileUploads']);
 		parent::readInputData();
 	}
 
@@ -101,6 +102,7 @@ class ControlPublicFilesSettingsForm extends Form {
 		$this->plugin->updateSetting($contextId, 'allowedDirSize', $this->getData('allowedDirSize'));
 		$this->plugin->updateSetting($contextId, 'disableAllUploads', $this->getData('disableAllUploads'));
 		$this->plugin->updateSetting($contextId, 'disableRoles', $this->getData('disableRoles'));
+		$this->plugin->updateSetting($contextId, 'applyToLibraryFileUploads', $this->getData('applyToLibraryFileUploads'));
 
 		// Tell the user that the save was successful.
 		import('classes.notification.NotificationManager');
