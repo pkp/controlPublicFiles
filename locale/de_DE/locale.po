@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Martin Brändle (using Deepl)\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-30T12:00:38+00:00\n"
+"PO-Revision-Date: 2023-11-30T12:00:38+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Steuerung öffentlicher Dateien"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr "Schränkt ein, wer öffentliche Dateien hochladen kann und welche Art von Dateien hochgeladen werden können."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Erlaubte Verzeichnisgrösse"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr "Legen Sie ein Limit für die Gesamtdateigröße des öffentlichen Upload-Verzeichnisses jedes Benutzers in Kilobyte fest. Der Standardwert ist 25000 (25 MB)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Zugelassene Dateitypen"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr "Schränken Sie ein, welche Art von Dateien hochgeladen werden können. Trennen Sie jede Datei mit einem Komma. Der Standardwert ist \"gif, jpg, png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Alle Uploads sperren"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr "Erlauben Sie den Benutzern nicht, Dateien über den Texteditor hochzuladen."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Nach Rolle deaktivieren"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "Erlauben Sie {$role} nicht, Dateien über den Texteditor hochzuladen."
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr "<p>Die Nutzer/innen können Bilder überall dort hochladen, wo sie mit einem Rich-Text-Editor angezeigt werden, der das Steuerelement zum Hochladen von Bildern enthält. Dazu gehören Orte wie der Abschnitt \"Über die Zeitschrift\" sowie die Benutzerbiografie im Profilbereich jedes Benutzers.</p><p>Mit den folgenden Einstellungen können Sie festlegen, wer hochladen darf, welche Art von Dateien hochgeladen werden dürfen und wie gross das Dateiverzeichnis sein darf.</p>"
