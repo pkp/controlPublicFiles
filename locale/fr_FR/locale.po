@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Martin Brändle (using Deepl)\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-30T12:00:38+00:00\n"
+"PO-Revision-Date: 2023-11-30T12:00:38+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Contrôle des fichiers publics"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr "Limitez les personnes qui peuvent télécharger des fichiers publics et le type de fichiers qu'elles peuvent télécharger."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Taille autorisée du répertoire"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr "Fixer une limite à la taille totale des fichiers du répertoire de téléchargement public de chaque utilisateur, en kilo-octets. La valeur par défaut est 25000 (25mo)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Types de fichiers autorisés"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr "Limitez le type de fichiers pouvant être téléchargés. Séparez chaque fichier par une virgule. La valeur par défaut est \"gif,jpg,png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Désactiver tous les téléchargements"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr "N'autorisez aucun utilisateur à télécharger des fichiers via l'éditeur de texte."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Désactivation par rôle"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "Ne pas autoriser {$role} à télécharger des fichiers via l'éditeur de texte."
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr "<p>Les utilisateurs peuvent télécharger des images partout où ils sont présentés avec un éditeur de texte riche qui inclut le contrôle de téléchargement d'images. Il s'agit notamment de la section \"À propos du journal\" et de la biographie de l'utilisateur dans la zone de profil de chaque utilisateur.</p><p>Les paramètres ci-dessous vous permettent de limiter les personnes autorisées à télécharger, le type de fichiers qu'elles peuvent télécharger et la taille de leur répertoire de fichiers.</p>"
