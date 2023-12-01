@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Martin Brändle (with Deepl)\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-30T12:00:38+00:00\n"
+"PO-Revision-Date: 2023-11-30T12:00:38+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Controlo dos ficheiros públicos"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr "Limite quem pode carregar ficheiros públicos e o tipo de ficheiros que pode carregar."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Tamanho do diretório permitido"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr "Define um limite para o tamanho total do ficheiro do diretório de carregamento público de cada utilizador em kilobytes. A predefinição é 25000 (25mb)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Tipos de ficheiros permitidos"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr " Limite o tipo de ficheiros que podem ser carregados. Separe cada ficheiro com uma vírgula. A predefinição é \"gif,jpg,png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Desativar todos os carregamentos"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr "Não permita que nenhum utilizador carregue ficheiros através do editor de texto."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Desativar por função"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "Não permitir que {$role} carregue ficheiros através do editor de texto."
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr "<p>Os utilizadores podem carregar imagens sempre que lhes for apresentado um editor de rich text que inclua o controlo de carregamento de imagens. Isto inclui locais como a secção Sobre o Jornal, bem como a biografia do utilizador na área de perfil de cada utilizador.</p><p>As definições abaixo permitem-lhe restringir quem pode carregar, que tipo de ficheiros podem ser carregados e qual o tamanho do diretório de ficheiros que podem aumentar.</p>"

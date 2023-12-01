@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Martin Brändle (with Deepl)\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-12-01T12:00:38+00:00\n"
+"PO-Revision-Date: 2023-12-01T12:00:38+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Controllo dei file pubblici"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr "Limitare chi può caricare file pubblici e che tipo di file può caricare."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Dimensioni consentite della directory"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr "Imposta un limite alla dimensione totale dei file della directory di caricamento pubblico di ciascun utente, in kbyte. L'impostazione predefinita è 25000 (25mb)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Tipi di file consentiti"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr "Limitare il tipo di file che possono essere caricati. Separare ogni file con una virgola. L'impostazione predefinita è \"gif,jpg,png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Disattivare tutti i caricamenti"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr "Non permettete agli utenti di caricare i file attraverso l'editor di testo."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Disabilitazione per ruolo"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "Non permettere a {$role} di caricare i file attraverso l'editor di testo."
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr "<p>Gli utenti possono caricare immagini ovunque si presentino con un editor di testo ricco che include il controllo di caricamento delle immagini. Questo include luoghi come la sezione Informazioni sul giornale e la biografia dell'utente nell'area del profilo di ogni utente.</p><p>Le impostazioni seguenti consentono di limitare chi può caricare, il tipo di file che può caricare e la dimensione della directory di file.</p>"

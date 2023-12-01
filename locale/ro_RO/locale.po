@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Martin Brändle (using Deepl)\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-30T12:00:38+00:00\n"
+"PO-Revision-Date: 2023-11-30T12:00:38+00:00\n"
+"Language: \n"
+
+msgid "plugins.generic.controlPublicFiles.displayName"
+msgstr "Controlul fișierelor publice"
+
+msgid "plugins.generic.controlPublicFiles.description"
+msgstr "Limitați cine poate încărca fișiere publice și ce fel de fișiere poate încărca."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
+msgstr "Dimensiunea permisă a directorului"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
+msgstr "Setați o limită în kilobiți pentru dimensiunea totală a fișierelor din directorul public de încărcare al fiecărui utilizator. Valoarea implicită este 25000 (25mb)."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
+msgstr "Tipuri de fișiere permise"
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr "Limitați tipurile de fișiere care pot fi încărcate. Separați fiecare fișier cu o virgulă. Valoarea implicită este \"gif,jpg,png\"."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
+msgstr "Dezactivați toate încărcările"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads.description"
+msgstr "Nu permiteți niciunui utilizator să încarce fișiere prin intermediul editorului de text."
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles"
+msgstr "Dezactivare în funcție de rol"
+
+msgid "plugins.generic.controlPublicFiles.setting.disableRoles.option"
+msgstr "Nu permiteți ca {$role} să încarce fișiere prin intermediul editorului de text."
+
+msgid "plugins.generic.controlPublicFiles.settings.description"
+msgstr "<p>Utilizatorii pot încărca imagini oriunde le este prezentat un editor de text bogat care include controlul de încărcare a imaginilor. Aceasta include locuri precum secțiunea Despre jurnal, precum și biografia utilizatorului din zona de profil a fiecărui utilizator.</p><p>Setările de mai jos vă permit să restricționați cine poate încărca, ce fel de fișiere poate încărca și cât de mare poate crește directorul lor de fișiere.</p>"

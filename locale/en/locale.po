@@ -21,7 +21,7 @@ msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
 msgstr "Allowed Directory Size"
 
 msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
-msgstr "Set a limit to the total file size of each user's public upload directory in bytes. Default is 25000 (25mb)."
+msgstr "Set a limit to the total file size of each user's public upload directory in kbytes. Default is 25000 (25mb)."
 
 msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
 msgstr "Allowed File Types"
