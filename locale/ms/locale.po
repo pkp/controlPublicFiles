@@ -56,3 +56,12 @@ msgstr ""
 
 msgid "plugins.generic.controlPublicFiles.displayName"
 msgstr "Kawal Fail Awam"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Memohon untuk Muat Naik Fail Perpustakaan"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Memohon peraturan jenis fail untuk muat naik fail perpustakaan permohonan"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Hanya sambungan fail berikut yang dibenarkan: {$allowedExtensions}."

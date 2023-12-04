@@ -64,3 +64,12 @@ msgstr ""
 
 msgid "plugins.generic.controlPublicFiles.displayName"
 msgstr "Plugiciel du gestionnaire d'accès aux fichiers publics"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Appliquer au téléchargement de fichiers de bibliothèque"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Appliquer les règles de type de fichier au téléchargement de fichiers de bibliothèque de soumissions"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Seules les extensions de fichier suivantes sont autorisées : {$allowedExtensions}."

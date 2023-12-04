@@ -55,3 +55,12 @@ msgid "plugins.generic.controlPublicFiles.description"
 msgstr ""
 "Begrens hvem som kan laste opp offentlig tilgjengelige filer, og hvilke "
 "filtyper de kan laste opp."
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Søk om å laste opp fil til biblioteket"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Søk filtype-regler for opplasting til biblioteket for innsending"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Bare følgende filtyper er tillatt: {$allowedExtensions}."

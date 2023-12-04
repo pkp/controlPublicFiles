@@ -53,3 +53,12 @@ msgstr ""
 "opciones de configuración que hay a continuación le permiten restringir "
 "quién puede hacer cargas, qué tipo de archivos pueden cargar y hasta que "
 "punto pueden crecer sus directorios de archivos.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Aplicar a la carga de archivos de biblioteca"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Aplicar reglas de tipo de archivo a la carga de archivos de biblioteca de presentaciones"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Solo se permiten las siguientes extensiones de archivo: {$allowedExtensions}."

@@ -43,3 +43,12 @@ msgstr "Ne pas autoriser {$role} à télécharger des fichiers via l'éditeur de
 
 msgid "plugins.generic.controlPublicFiles.settings.description"
 msgstr "<p>Les utilisateurs peuvent télécharger des images partout où ils sont présentés avec un éditeur de texte riche qui inclut le contrôle de téléchargement d'images. Il s'agit notamment de la section \"À propos du journal\" et de la biographie de l'utilisateur dans la zone de profil de chaque utilisateur.</p><p>Les paramètres ci-dessous vous permettent de limiter les personnes autorisées à télécharger, le type de fichiers qu'elles peuvent télécharger et la taille de leur répertoire de fichiers.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Appliquer au téléchargement de fichiers de bibliothèque"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Appliquer les règles de type de fichier au téléchargement de fichiers de bibliothèque de soumissions"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Seules les extensions de fichier suivantes sont autorisées : {$allowedExtensions}."

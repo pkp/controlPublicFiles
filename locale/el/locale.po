@@ -59,3 +59,12 @@ msgstr ""
 
 msgid "plugins.generic.controlPublicFiles.displayName"
 msgstr "Διαχείριση Δημόσιων Αρχείων"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Εφαρμόστε στη μεταφόρτωση αρχείων βιβλιοθήκης"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Εφαρμογή κανόνων τύπου αρχείου στη μεταφόρτωση αρχείων βιβλιοθήκης υποβολών"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Επιτρέπονται μόνο οι παρακάτω επεκτάσεις αρχείων: {$allowedExtensions}."

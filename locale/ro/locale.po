@@ -43,3 +43,12 @@ msgstr "Nu permiteți ca {$role} să încarce fișiere prin intermediul editorul
 
 msgid "plugins.generic.controlPublicFiles.settings.description"
 msgstr "<p>Utilizatorii pot încărca imagini oriunde le este prezentat un editor de text bogat care include controlul de încărcare a imaginilor. Aceasta include locuri precum secțiunea Despre jurnal, precum și biografia utilizatorului din zona de profil a fiecărui utilizator.</p><p>Setările de mai jos vă permit să restricționați cine poate încărca, ce fel de fișiere poate încărca și cât de mare poate crește directorul lor de fișiere.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Aplicați pentru a încărca fișiere în bibliotecă"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Aplicați reguli de tip de fișier pentru încărcarea fișierului în biblioteca de trimitere"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Sunt permise doar următoarele extensii de fișiere: {$allowedExtensions}."

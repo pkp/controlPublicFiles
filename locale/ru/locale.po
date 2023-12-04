@@ -58,3 +58,12 @@ msgstr ""
 
 msgid "plugins.generic.controlPublicFiles.displayName"
 msgstr "Управление общими файлами"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Применить к загрузке файлов в библиотеку"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Применить правила типов файлов к загрузке файлов в библиотеку для представления"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Разрешены только следующие расширения файлов: {$allowedExtensions}."

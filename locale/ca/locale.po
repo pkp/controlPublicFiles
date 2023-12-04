@@ -57,3 +57,12 @@ msgstr ""
 
 msgid "plugins.generic.controlPublicFiles.displayName"
 msgstr "Controlar arxius públics"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Aplicar a la càrrega de fitxers de la biblioteca"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Aplicar normes de tipus de fitxers a la càrrega de fitxers de la biblioteca de presentacions"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Només es permeten les següents extensions de fitxers: {$allowedExtensions}."

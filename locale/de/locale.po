@@ -43,3 +43,12 @@ msgstr "Erlauben Sie {$role} nicht, Dateien über den Texteditor hochzuladen."
 
 msgid "plugins.generic.controlPublicFiles.settings.description"
 msgstr "<p>Die Nutzer/innen können Bilder überall dort hochladen, wo sie mit einem Rich-Text-Editor angezeigt werden, der das Steuerelement zum Hochladen von Bildern enthält. Dazu gehören Orte wie der Abschnitt \"Über die Zeitschrift\" sowie die Benutzerbiografie im Profilbereich jedes Benutzers.</p><p>Mit den folgenden Einstellungen können Sie festlegen, wer hochladen darf, welche Art von Dateien hochgeladen werden dürfen und wie gross das Dateiverzeichnis sein darf.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Auf die Übertragung von Bibliotheksdateien anwenden"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Dateityp-Regeln auf die Hochladung von Bibliotheksdateien anwenden"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Es sind nur folgende Dateierweiterungen erlaubt: {$allowedExtensions}."

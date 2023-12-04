@@ -59,3 +59,12 @@ msgstr ""
 
 msgid "plugins.generic.controlPublicFiles.displayName"
 msgstr "Վերահսկել հանրային նիշքերը"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Կիրառել գրադարանի ֆայլերի վերբեռնում"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Կիրառել ֆայլի տեսակի կանոնները մատչելիության գրառման գրադարանի ֆայլերի վերբեռնում"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Թույլատրվում են միայն հետևյալ ֆայլի ընդունվածությունները: {$allowedExtensions}."

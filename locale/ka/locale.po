@@ -57,3 +57,12 @@ msgstr ""
 "მოცემული პარამეტრები საშუალებას გაძლევთ შეზღუდოთ ვინ ატვირთავს, რა სახის "
 "ფაილების ატვირთვა შეუძლია და რამდენად დიდი მათი ფაილების დირექტორია შეიძლება "
 "გაიზარდოს.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "გამოყენება ბიბლიოთეკის ფაილების ჩამოტვირთვაზე"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "ფაილის ტიპის წესების მიღება ბიბლიოთეკის ფაილების ჩამოტვირთვაში"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "მხოლოდ შემდეგი ფაილის გაფართოებული გაფართოებები არიან დარჩენილი: {$allowedExtensions}."
