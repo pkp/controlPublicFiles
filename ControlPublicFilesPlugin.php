@@ -201,7 +201,6 @@ class ControlPublicFilesPlugin extends GenericPlugin {
                 $temporaryFileDao = DAORegistry::getDAO('TemporaryFileDAO'); /* @var $temporaryFileDao TemporaryFileDAO */
                 $userId = $request->getUser()->getId();
                 $temporaryFile = $temporaryFileDao->getTemporaryFilesByUserId($userId)->records->current();
-                $canUpload = false;
                 $mimeKeys = json_decode(file_get_contents('./plugins/generic/controlPublicFiles/mimes.json'), TRUE);
                 $allowedFileTypes = explode(',', $this->getSetting($request->getContext()->getId(), 'allowedFileTypes'));
                 $allowedMimes = [];
@@ -214,9 +213,9 @@ class ControlPublicFilesPlugin extends GenericPlugin {
                     }
                 }
 
-                if(!in_array($temporaryFile->file_type, $allowedMimes) && !$canUpload) {
+                if(!in_array($temporaryFile->file_type, $allowedMimes)) {
                     $allowedExtensions = $this->getSetting($request->getContext()->getId(), 'allowedFileTypes');
-                    $form->addError('fileType', __('plugins.generic.controlPublicFiles.error', array('allowedExtensions' => $allowedExtensions)));
+                    $form->addError('fileType', __('plugins.generic.controlPublicFiles.error', ['allowedExtensions' => $allowedExtensions]));
                     $temporaryFileDao->deleteTemporaryFileById($temporaryFile->file_id, $userId);
                 }
             }
