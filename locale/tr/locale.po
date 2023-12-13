@@ -56,3 +56,12 @@ msgstr ""
 
 msgid "plugins.generic.controlPublicFiles.displayName"
 msgstr "Dosya Kontrolü"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Kütüphane Dosya Yükleme İçin Başvur"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Dosya türü kurallarını teslimat kütüphane dosyası yükleme için uygula"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Yalnızca aşağıdaki dosya uzantılarına izin verilir: {$allowedExtensions}."

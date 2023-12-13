@@ -43,3 +43,12 @@ msgstr "Non permettere a {$role} di caricare i file attraverso l'editor di testo
 
 msgid "plugins.generic.controlPublicFiles.settings.description"
 msgstr "<p>Gli utenti possono caricare immagini ovunque si presentino con un editor di testo ricco che include il controllo di caricamento delle immagini. Questo include luoghi come la sezione Informazioni sul giornale e la biografia dell'utente nell'area del profilo di ogni utente.</p><p>Le impostazioni seguenti consentono di limitare chi può caricare, il tipo di file che può caricare e la dimensione della directory di file.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Applica al caricamento dei file della libreria"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Applica le regole sui tipi di file per il caricamento dei file della libreria di presentazione"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Sono consentite solo le seguenti estensioni dei file: {$allowedExtensions}."

@@ -57,3 +57,12 @@ msgstr "Älä salli käyttäjien ladata tiedostoja palvelimelle tekstimuokkaimes
 
 msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
 msgstr "Estä palvelimelle lataaminen"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Sovella kirjaston tiedoston lataamista"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Sovella tiedostotyypin sääntöjä aineiston kirjaston tiedostojen lataamiseen"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Vain seuraavat tiedostotunnisteet ovat sallittuja: {$allowedExtensions}."

@@ -58,3 +58,12 @@ msgstr ""
 
 msgid "plugins.generic.controlPublicFiles.displayName"
 msgstr "Управувај со јавни датотеки"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Пријави за поставување на датотеки во библиотеката"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Пријави правила за типови на датотеки за поставување на датотеки во библиотеката за поднесување"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Се дозволени само следните екстензии на датотеки: {$allowedExtensions}."

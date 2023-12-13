@@ -58,3 +58,12 @@ msgstr ""
 
 msgid "plugins.generic.controlPublicFiles.displayName"
 msgstr "Controlar Arquivos Públicos"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Aplicar ao envio de arquivos da biblioteca"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Aplicar regras de tipo de arquivo ao envio de arquivos da biblioteca de submissão"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Apenas as seguintes extensões de arquivo são permitidas: {$allowedExtensions}."

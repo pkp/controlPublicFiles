@@ -1,2 +1,11 @@
 msgid ""
 msgstr "X-Generator: Weblate\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Ansök för att ladda upp fil till biblioteket"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Tillämpa filtypsregler för uppladdning till biblioteket för inlämning"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Endast följande filändelser är tillåtna: {$allowedExtensions}."

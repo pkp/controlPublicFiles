@@ -43,3 +43,12 @@ msgstr "Não permitir que {$role} carregue ficheiros através do editor de texto
 
 msgid "plugins.generic.controlPublicFiles.settings.description"
 msgstr "<p>Os utilizadores podem carregar imagens sempre que lhes for apresentado um editor de rich text que inclua o controlo de carregamento de imagens. Isto inclui locais como a secção Sobre o Jornal, bem como a biografia do utilizador na área de perfil de cada utilizador.</p><p>As definições abaixo permitem-lhe restringir quem pode carregar, que tipo de ficheiros podem ser carregados e qual o tamanho do diretório de ficheiros que podem aumentar.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Aplicar ao envio de ficheiros da biblioteca"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Aplicar regras de tipo de ficheiro ao envio de ficheiros da biblioteca de submissão"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Apenas as seguintes extensões de ficheiro são permitidas: {$allowedExtensions}."

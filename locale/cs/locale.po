@@ -55,3 +55,12 @@ msgstr ""
 "časopisu“ či uživatelské biografie v uživatelském profilu.</p><p>Níže "
 "uvedená nastavení dovolují omezit, kdo může obrázky nahrávat, typ "
 "nahrávaných souborů a celkovou velikost knihoven jednotlivých uživatelů.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Použít na nahrávání souborů do knihovny"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Použít pravidla typu souboru pro nahrávání souborů do knihovny příspěvků"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Jsou povoleny pouze následující přípony souborů: {$allowedExtensions}."

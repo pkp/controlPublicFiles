@@ -6,6 +6,8 @@ Users can upload images wherever they are presented with a rich text editor that
 
 This plugin provides settings to restrict who can upload, what kind of files they can upload, and how large their directory of files can grow.
 
+This functionality can be extended to work on the submission file library upload via the setting 'Apply To Library File Upload'.
+
 ![Screenshot of plugin settings](screenshot.png)
 
 ## Installation

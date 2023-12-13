@@ -56,3 +56,12 @@ msgstr "Omejitev kdo lahko nalaga javne datoteke in kaksnega tipa so lahko."
 
 msgid "plugins.generic.controlPublicFiles.displayName"
 msgstr "Nadzor nad javnimi datotekami"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Uporabi za nalaganje datotek v knjižnico"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Uporabi pravila vrste datotek za nalaganje v knjižnico oddanih datotek"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Dovoljene so samo naslednje datotečne razširitve: {$allowedExtensions}."

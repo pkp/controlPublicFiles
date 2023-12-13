@@ -61,3 +61,12 @@ msgstr ""
 
 msgid "plugins.generic.controlPublicFiles.displayName"
 msgstr "Плагін \"Контроль публічних файлів\""
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Застосувати до завантаження файлів у бібліотеку"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Застосовувати правила типу файлу до завантаження файлів у бібліотеку подань"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Дозволені лише наступні розширення файлів: {$allowedExtensions}."

@@ -57,3 +57,12 @@ msgstr "Разрешен размер на директорията"
 msgid "plugins.generic.controlPublicFiles.description"
 msgstr ""
 "Ограничете кой може да качва публични файлове и какви файлове може да качва."
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "Прилагане на за права върху библиотечното качване на файлове"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "Прилагане на правила за типовете файлове за библиотечното качване на файла за подаване"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "Разрешени са само следните разширения на файлове: {$allowedExtensions}."
