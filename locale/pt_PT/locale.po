@@ -12,22 +12,28 @@ msgstr ""
 "Language: \n"
 
 msgid "plugins.generic.controlPublicFiles.displayName"
-msgstr "Controlo dos ficheiros públicos"
+msgstr "Controlo de Ficheiros Públicos"
 
 msgid "plugins.generic.controlPublicFiles.description"
-msgstr "Limite quem pode carregar ficheiros públicos e o tipo de ficheiros que pode carregar."
+msgstr ""
+"Limitar quem pode fazer upload de ficheiros públicos e que tipo de ficheiros "
+"podem carregar."
+
+msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
+msgstr ""
+"Limite o tipo de ficheiro que pode ser carregado. Separe cada tipo de "
+"ficheiro com uma vírgula. O padrão é \"gif, jpg, png\"."
 
 msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize"
-msgstr "Tamanho do diretório permitido"
+msgstr "Tamanho permitido para a pasta"
 
 msgid "plugins.generic.controlPublicFiles.setting.allowedDirSize.description"
-msgstr "Define um limite para o tamanho total do ficheiro do diretório de carregamento público de cada utilizador em kilobytes. A predefinição é 25000 (25mb)."
+msgstr ""
+"Defina um limite para o tamanho total da pasta de carregaemento de cada "
+"utilizador em bytes. O padrão é 25000 (25mb)."
 
 msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes"
 msgstr "Tipos de ficheiros permitidos"
-
-msgid "plugins.generic.controlPublicFiles.setting.allowedFileTypes.description"
-msgstr " Limite o tipo de ficheiros que podem ser carregados. Separe cada ficheiro com uma vírgula. A predefinição é \"gif,jpg,png\"."
 
 msgid "plugins.generic.controlPublicFiles.setting.disableAllUploads"
 msgstr "Desativar todos os carregamentos"
