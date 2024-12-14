@@ -1,8 +1,9 @@
 # M. Ali <vorteem@gmail.com>, 2023.
+# "M. Ali" <vorteem@gmail.com>, 2024.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-02 04:01+0000\n"
-"Last-Translator: M. Ali <vorteem@gmail.com>\n"
+"PO-Revision-Date: 2024-12-15 06:50+0000\n"
+"Last-Translator: \"M. Ali\" <vorteem@gmail.com>\n"
 "Language-Team: Arabic <http://translate.pkp.sfu.ca/projects/plugins/"
 "controlpublicfiles/ar/>\n"
 "Language: ar\n"
@@ -11,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.13.1\n"
+"X-Generator: Weblate 4.18.2\n"
 
 msgid "plugins.generic.controlPublicFiles.displayName"
 msgstr "التحكم بالملفات العامة"
@@ -54,3 +55,12 @@ msgstr ""
 "للمستخدم في كل مناطق ملفاتهم الشخصية.</p><p>الإعدادات أدناه تسمح لك بتقييد "
 "من بإمكانه الرفع، ما أنواع الملفات التي يمكنه رفعها، وإلى أي حد يمكن أن "
 "يتوسع مجلد ملفاته.</p>"
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads"
+msgstr "التطبيق لرفع ملف المكتية"
+
+msgid "plugins.generic.controlPublicFiles.error"
+msgstr "فقط امتدادات الملفات الآتية مسموح بها: {$allowedExtensions}."
+
+msgid "plugins.generic.controlPublicFiles.setting.applyToLibraryFileUploads.description"
+msgstr "تطبيق قواعد أنواع الملفات مع رفع ملف مكتبة طلب التقديم"
