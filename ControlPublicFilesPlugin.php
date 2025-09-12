@@ -12,8 +12,8 @@
 
 namespace APP\plugins\generic\controlPublicFiles;
 
-use Application;
-use DAORegistry;
+use APP\core\Application;
+use PKP\db\DAORegistry;
 use PKP\plugins\GenericPlugin;
 use PKP\plugins\Hook;
 use PKP\core\JSONMessage;
