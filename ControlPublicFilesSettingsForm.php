@@ -18,6 +18,7 @@ use PKP\form\validation\FormValidatorCSRF;
 use APP\notification\NotificationManager;
 use APP\template\TemplateManager;
 use APP\core\Application;
+use PKP\notification\Notification;
 
 class ControlPublicFilesSettingsForm extends Form {
 
@@ -105,11 +106,10 @@ class ControlPublicFilesSettingsForm extends Form {
         $this->plugin->updateSetting($contextId, 'applyToLibraryFileUploads', $this->getData('applyToLibraryFileUploads'));
 
         // Tell the user that the save was successful.
-        import('classes.notification.NotificationManager');
         $notificationMgr = new NotificationManager();
         $notificationMgr->createTrivialNotification(
             Application::get()->getRequest()->getUser()->getId(),
-            NOTIFICATION_TYPE_SUCCESS,
+            Notification::NOTIFICATION_TYPE_SUCCESS,
             ['contents' => __('common.changesSaved')]
         );
 
